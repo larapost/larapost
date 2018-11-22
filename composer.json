@@ -1,0 +1,31 @@
+{
+	"name": "larapost/larapost",
+	"type": "library",
+	"description": "laravel CMS",
+	"keywords": ["php", "laravel", "larapost", "cms", "komicho"],
+	"homepage": "https://github.com/komichoLab/laravelWebToken",
+	"license": "MIT",
+    "require": {
+        "larapost/categories": "@dev"
+    },
+	"authors": [
+		{
+			"name": "komicho",
+			"email": "komicho1996@gmail.com",
+			"homepage": "https://github.com/komicho",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Larapost\\": "/src"
+		}
+	},
+	"extra": {
+        "laravel": {
+            "providers": [
+                "Larapost\\Support\\ServiceProvider"
+            ]
+        }
+    }
+}
