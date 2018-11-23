@@ -1,0 +1,39 @@
+:root{
+	--color-level-1: #25282b;
+	--color-level-2: #e14d43;
+	--color-level-3: #363b3f;
+	--color-level-4: #69a8bb;
+	--color-level-5: #ffffff;
+}
+body{
+	background-color: var(--color-level-1);
+}
+.navbar-default {
+	background-color: var(--color-level-1);
+    border: 0px;
+}
+.nav>li>a{
+	color: var(--color-level-5);
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: var(--color-level-2);
+}
+.nav-second-level{
+	background-color: var(--color-level-3);
+}
+.nav-third-level{
+	background-color: var(--color-level-3);
+}
+.sidebar ul li {
+    border-bottom: 0px solid var(--color-level-2);
+}
+.sidebar ul li a.active {
+    background-color: var(--color-level-2);
+}
+/*  */
+.panel-default>.panel-heading {
+    color: var(--color-level-5);
+    background-color: var(--color-level-1);
+    border-color:var(--color-level-1);
+}

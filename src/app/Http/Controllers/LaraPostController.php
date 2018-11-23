@@ -5,7 +5,7 @@ namespace Larapost\App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class WelcomeController extends Controller
+class LaraPostController extends Controller
 {
     /**
      * Show the application dashboard.
@@ -14,7 +14,7 @@ class WelcomeController extends Controller
      */
     public function index(Request $request)
     {
-        return 'larapost';
+        return view('larapost::home');
     }   
 
 }
