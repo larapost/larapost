@@ -280,10 +280,10 @@
                             <a href="#"><i class="fa fa-thumb-tack fa-fw"></i> Posts<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="#">All Posts</a>
+                                    <a href="{{ route('larapost.posts.index') }}">All Posts</a>
                                 </li>
                                 <li>
-                                    <a href="#">Add New</a>
+                                    <a href="{{ route('larapost.posts.create') }}">Add New</a>
                                 </li>
                                 <li>
                                     <a href="#">Categories</a>
@@ -334,8 +334,8 @@
 
     <!-- Morris Charts JavaScript -->
     <script src="{{ asset('/vendor/larapost/js/raphael/raphael.min.js') }}"></script>
-    <script src="{{ asset('/vendor/larapost/js/morris/morris.min.js') }}"></script>
-    <script src="{{ asset('/vendor/larapost/data/morris-data.js') }}"></script>
+    <!-- <script src="{{ asset('/vendor/larapost/js/morris/morris.min.js') }}"></script>
+    <script src="{{ asset('/vendor/larapost/data/morris-data.js') }}"></script> -->
 
     <!-- Custom Theme JavaScript -->
     <script src="{{ asset('/vendor/larapost/js/sb-admin-2.js') }}"></script>

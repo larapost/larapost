@@ -6,7 +6,7 @@
 	"homepage": "https://github.com/komichoLab/laravelWebToken",
 	"license": "MIT",
     "require": {
-		"larapost/categories":"*"
+		"larapost/posts":"*"
     },
 	"authors": [
 		{
